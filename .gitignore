@@ -1,4 +1,5 @@
 # Berlioz framework project
+.idea
 /node_modules/
 /public/assets/
 /var/
