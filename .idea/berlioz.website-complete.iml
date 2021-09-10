@@ -27,6 +27,11 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/config" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/service-container" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/mailer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/html-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/form" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/http-client" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

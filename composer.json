@@ -3,6 +3,8 @@
   "type": "project",
   "description": "Berlioz Framework website skeleton",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "authors": [
     {
       "name": "Ronan Giron",
@@ -21,8 +23,19 @@
   },
   "require": {
     "php": "^7.1 || ^8.0",
+    "berlioz/atlas-package": "dev-develop",
+    "berlioz/cli-core": "^1.1",
+    "berlioz/config": "^1.2",
+    "berlioz/flash-bag": "^1.3",
+    "berlioz/form": "^0.3.0",
+    "berlioz/html-selector": "^1.0",
+    "berlioz/http-client": "^1.2",
     "berlioz/http-core": "^1.0",
-    "berlioz/cli-core": "^1.0"
+    "berlioz/http-message": "^1.2",
+    "berlioz/mailer": "^1.3",
+    "berlioz/php-doc": "^1.1",
+    "berlioz/service-container": "^1.1",
+    "ext-json": "*"
   },
   "config": {
     "optimize-autoloader": true,

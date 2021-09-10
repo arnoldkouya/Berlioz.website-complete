@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'v1.0',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '6152fb750e12d3597ab48adfff5f3c3f1b3ae40e',
     'name' => 'berlioz/website-skeleton',
   ),
   'versions' => 
@@ -47,6 +47,15 @@
       ),
       'reference' => 'f982c029e817038fa08bb942de3920cb60d4831b',
     ),
+    'berlioz/form' => 
+    array (
+      'pretty_version' => 'v0.3.0',
+      'version' => '0.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3536ad1667fa1c469c8825b219eb2a1cd3b3c835',
+    ),
     'berlioz/helpers' => 
     array (
       'pretty_version' => 'v1.2.0',
@@ -55,6 +64,24 @@
       array (
       ),
       'reference' => '0f7b33dfcd37e63b95577bde207bdca38e6bd08f',
+    ),
+    'berlioz/html-selector' => 
+    array (
+      'pretty_version' => 'v1.0.0',
+      'version' => '1.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7ad6186a8d809aeec13062902378f1edaba1cf13',
+    ),
+    'berlioz/http-client' => 
+    array (
+      'pretty_version' => 'v1.2.0',
+      'version' => '1.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3dd14743acac5dd55cdb7ffda218716dae279cd3',
     ),
     'berlioz/http-core' => 
     array (
@@ -73,6 +100,15 @@
       array (
       ),
       'reference' => 'c9fcbea071c1e8cc173c32a0a46f8fd4cbd97156',
+    ),
+    'berlioz/mailer' => 
+    array (
+      'pretty_version' => 'v1.3.2',
+      'version' => '1.3.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ef7130e65d56c9fa97c218a540b43e4b9db937f7',
     ),
     'berlioz/php-doc' => 
     array (
@@ -112,12 +148,12 @@
     ),
     'berlioz/website-skeleton' => 
     array (
-      'pretty_version' => 'v1.0',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '6152fb750e12d3597ab48adfff5f3c3f1b3ae40e',
     ),
     'psr/container' => 
     array (
@@ -129,6 +165,22 @@
       'reference' => '8622567409010282b7aeebe4bb841fe98b58dcaf',
     ),
     'psr/container-implementation' => 
+    array (
+      'provided' => 
+      array (
+        0 => '^1.0',
+      ),
+    ),
+    'psr/http-client' => 
+    array (
+      'pretty_version' => '1.0.1',
+      'version' => '1.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2dfb5f6c5eff0e91e20e913f8c5452ed95b86621',
+    ),
+    'psr/http-client-implementation' => 
     array (
       'provided' => 
       array (
