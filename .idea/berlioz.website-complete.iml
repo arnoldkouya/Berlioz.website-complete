@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="App\Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/php-doc" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/router" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/http-core" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/helpers" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/flash-bag" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ulrichsg/getopt-php" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-server-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/core" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/cli-core" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/twig-package" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/config" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/service-container" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/berlioz/http-message" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

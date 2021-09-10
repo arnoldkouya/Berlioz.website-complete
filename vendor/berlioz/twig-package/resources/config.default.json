@@ -1,0 +1,20 @@
+{
+  "berlioz": {
+    "directories": {
+      "templates": "%berlioz.directories.app%/templates"
+    }
+  },
+  "twig": {
+    "paths": {
+      "__main__": "%berlioz.directories.templates%"
+    },
+    "options": {
+      "cache": "%berlioz.directories.cache%/twig",
+      "debug": "%berlioz.debug.enable%"
+    },
+    "extensions": [
+      "Berlioz\\Package\\Twig\\TwigExtension"
+    ],
+    "globals": {}
+  }
+}

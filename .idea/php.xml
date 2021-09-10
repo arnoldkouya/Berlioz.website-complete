@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/berlioz/php-doc" />
+      <path value="$PROJECT_DIR$/vendor/berlioz/router" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/berlioz/http-core" />
+      <path value="$PROJECT_DIR$/vendor/berlioz/helpers" />
+      <path value="$PROJECT_DIR$/vendor/berlioz/flash-bag" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/ulrichsg/getopt-php" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/berlioz/core" />
+      <path value="$PROJECT_DIR$/vendor/berlioz/cli-core" />
+      <path value="$PROJECT_DIR$/vendor/berlioz/twig-package" />
+      <path value="$PROJECT_DIR$/vendor/berlioz/config" />
+      <path value="$PROJECT_DIR$/vendor/berlioz/service-container" />
+      <path value="$PROJECT_DIR$/vendor/berlioz/http-message" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+</project>

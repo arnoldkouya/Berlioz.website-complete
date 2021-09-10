@@ -1,0 +1,41 @@
+{
+  "name": "berlioz/helpers",
+  "type": "library",
+  "description": "Many PHP functions used in the Berlioz framework, which you can use in your developments.",
+  "license": "MIT",
+  "homepage": "https://getberlioz.com",
+  "authors": [
+    {
+      "name": "Ronan Giron",
+      "email": "ronan@getberlioz.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Berlioz\\Helpers\\": "src/"
+    },
+    "files": [
+      "src/bootstrap.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Berlioz\\Helpers\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "ext-mbstring": "*",
+    "ext-intl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.3"
+  },
+  "suggest": {
+    "ext-gd": "Allows to use image helpers functions",
+    "ext-simplexml": "Allows to use XML functions"
+  },
+  "conflict": {
+    "berlioz/utils": "*"
+  }
+}

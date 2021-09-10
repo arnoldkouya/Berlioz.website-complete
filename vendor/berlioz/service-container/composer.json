@@ -1,0 +1,33 @@
+{
+  "name": "berlioz/service-container",
+  "description": "Berlioz Service Container is a PHP library to manage your services with dependencies injection, respecting PSR-11 (Container interface) standard.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "homepage": "https://getberlioz.com",
+  "authors": [
+    {
+      "name": "Ronan Giron",
+      "email": "ronan@getberlioz.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Berlioz\\ServiceContainer\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Berlioz\\ServiceContainer\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.1 || ^8.0",
+    "psr/container": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5 || ^8.0 || ^9.0"
+  },
+  "provide": {
+    "psr/container-implementation": "^1.0"
+  }
+}

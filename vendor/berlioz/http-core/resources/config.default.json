@@ -1,0 +1,29 @@
+{
+  "berlioz": {
+    "directories": {
+      "templates": "%berlioz.directories.app%/templates"
+    },
+    "assets": {
+      "manifest": "%berlioz.directories.app%/public/assets/manifest.json",
+      "entrypoints": "%berlioz.directories.app%/public/assets/entrypoints.json"
+    },
+    "http": {
+      "errors": {
+        "default": "Berlioz\\HttpCore\\Http\\DefaultHttpErrorHandler"
+      },
+      "redirections": {}
+    },
+    "maintenance": false
+  },
+  "controllers": [
+    "Berlioz\\HttpCore\\Controller\\DebugController"
+  ],
+  "twig": {
+    "paths": {
+      "Berlioz-HttpCore": "%berlioz.directories.vendor%/berlioz/http-core/resources"
+    },
+    "globals": {
+      "app": "@AppProfile"
+    }
+  }
+}

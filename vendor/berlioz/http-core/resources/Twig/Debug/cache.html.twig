@@ -1,0 +1,52 @@
+{% extends "@Berlioz-HttpCore/Twig/Debug/_main.html.twig" %}
+
+{% block main %}
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1>Cache</h1>
+    </div>
+
+    <p>
+        It's a live of cache status.
+    </p>
+
+    {% if cleared %}
+        <p class="alert alert-success">
+            Cache "{{ cleared }}" cleared.
+        </p>
+    {% endif %}
+
+    <div class="row">
+        <div class="col">
+            <div class="card bg-dark text-white">
+                <div class="card-body text-center">
+                    <p class="card-text mb-0">Berlioz internal cache</p>
+                    {% if not cacheManager %}
+                        <p class="card-value mb-0">disabled</p>
+                    {% else %}
+                        <p class="card-value">enabled</p>
+                        <a href="{{ path('_berlioz/console/cache', {id: report.uniqid, clear: 'internal'}) }}"
+                           class="btn btn-primary">
+                            Clear cache
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-dark text-white">
+                <div class="card-body text-center">
+                    <p class="card-text mb-0">OPcache</p>
+                    {% if opcache is same as(false) or not opcache.opcache_enabled %}
+                        <p class="card-value mb-0">disabled</p>
+                    {% else %}
+                        <p class="card-value">enabled</p>
+                        <a href="{{ path('_berlioz/console/cache', {id: report.uniqid, clear: 'opcache'}) }}"
+                           class="btn btn-primary">
+                            Clear cache
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
